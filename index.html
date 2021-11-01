@@ -138,23 +138,23 @@
 <body>
 	<br>
 	<center>
-		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
+		<span style="font-size:36px">MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID</span>
 		<table align=center width=600px>
 			<table align=center width=600px>
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
+							<span style="font-size:24px"><a href="https://chaitrasj.github.io/">Chaitra Jambigi</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
+							<span style="font-size:24px"><a href="https://jarvvvis.github.io/">Ruchit Rawal</a></span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
+							<span style="font-size:24px"><a href="http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html">Anirban Chakraborty</a></span>
 						</center>
 					</td>
 				</tr>
@@ -168,7 +168,7 @@
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+							<span style="font-size:24px"><a href='https://github.com/vcl-iisc/MMD-ReID'>[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -177,22 +177,16 @@
 	</center>
 
 	<center>
-		<table align=center width=850px>
+		<table>
 			<tr>
-				<td width=260px>
+				<td width=800px height=200px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+						<img class="round" style="width:800px; height:300px" src="./resources/logo.png"/>
 					</center>
 				</td>
 			</tr>
 		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
-				</td>
-			</tr>
-		</table>
+		
 	</center>
 
 	<hr>
@@ -201,7 +195,7 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				Learning  modality  invariant  features  is  central  to  the  problem  of  Visible-Thermalcross-modal Person Reidentification (VT-ReID), where query and gallery images comefrom different modalities.   Existing works implicitly align the modalities in pixel andfeature spaces by either using adversarial learning or carefully designing feature extrac-tion modules that heavily rely on domain knowledge. We propose a simple but effectiveframework, MMD-ReID, that reduces the modality gap by an explicit discrepancy re-duction  constraint.   MMD-ReID  takes  inspiration  from  Maximum  Mean  Discrepancy(MMD),  a  widely  used  statistical  tool  for  hypothesis  testing  that  determines  the  dis-tance between two distributions. MMD-ReID uses a novel margin-based formulation tomatch class-conditional feature distributions of visible and thermal samples to minimizeintra-class distances while maintaining feature discriminability. MMD-ReID is a simpleframework in terms of architecture and loss formulation.  We conduct extensive exper-iments to demonstrate both qualitatively and quantitatively the effectiveness of MMD-ReID  in  aligning  the  marginal  and  class  conditional  distributions,  thus  learning  bothmodality-independent and identity-consistent features.  The proposed framework signif-icantly outperforms the state-of-the-art methods on SYSU-MM01 and RegDB datasets.
 			</td>
 		</tr>
 	</table>
@@ -238,7 +232,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+					<td><img class="round" style="width:800px" src="./resources/Architecture.jpg"/></td>
 				</center>
 			</td>
 		</tr>
@@ -247,7 +241,7 @@
 		<center>
 			<tr>
 				<td>
-					Short description if wanted
+					MMD-ReID: Structure of our two stream architecture for VT-ReID. Modality specific layers (L-0, L-1, L-2) have independent weights for each modality. Modality shared layers (L-3, L-4, Pool, BN, FC) have shared weights for both modalities, denoted by dotted by bi-directional arrows. Visible and Thermal features are extracted independently and ID loss is applied. Margin MMD-ID and Hc-Tri are applied on pooled features.
 				</td>
 			</tr>
 		</center>
@@ -255,7 +249,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/vcl-iisc/MMD-ReID'>[GitHub]</a>
 			</center>
 		</span>
 	</table>
@@ -265,9 +259,9 @@
 		<center><h1>Paper and Supplementary Material</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
-				<b>Creative and Descriptive Paper Title.</b><br>
-				In Conference, 20XX.<br>
+			<td><span style="font-size:14pt">Chaitra Jambigi, Ruchit Rawal, Anirban Chakraborty.<br>
+				<b>MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID.</b><br>
+				In BMVC, 2021 (oral).<br>
 				(hosted on <a href="">ArXiv</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
@@ -293,7 +287,7 @@
 			<td width=400px>
 				<left>
 					<center><h1>Acknowledgements</h1></center>
-					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
+					This work is supported by a Young Scientist Research Award (Sanction no. 59/20/11/2020-BRNS) from DAE-BRNS, India.
 				</left>
 			</td>
 		</tr>
