@@ -4,7 +4,7 @@ MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID. Accep
 
 **Paper link**: https://arxiv.org/abs/2111.05059
 
-**Presentation slides link**: https://drive.google.com/drive/u/0/folders/1gapnzU4YjaVXT8kZ2UETMbD26iApoOij
+**Presentation slides link**: https://drive.google.com/file/d/1S0sfA7PMyzqGPnG5izGBeZ7uClsJ1uA3/view?usp=sharing
 
 **Project webpage**: https://vcl-iisc.github.io/mmd-reid-web/
 
