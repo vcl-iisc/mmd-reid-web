@@ -1,4 +1,17 @@
-## <b>Webpage template</b>
+## <b>Webpage template for MMD ReID</b>
+
+MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID. Accepted at BMVC 2021 (Oral)
+
+**Paper link**: https://arxiv.org/abs/2111.05059
+
+**Presentation slides link**: https://drive.google.com/drive/u/0/folders/1gapnzU4YjaVXT8kZ2UETMbD26iApoOij
+
+**Project webpage**: https://vcl-iisc.github.io/mmd-reid-web/
+
+**Code**: https://github.com/vcl-iisc/MMD-ReID
+
+
+## Using this template
 
 This webpage template was made for a [colorful ECCV paper](http://richzhang.github.io/colorization/). See how the webpage looks [here](https://richzhang.github.io/webpage-template).
 
