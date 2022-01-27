@@ -1,6 +1,6 @@
-@inproceedings{jambigi2021mmd_reid,
+@inproceedings{jambigi2021mmd,
   title={MMD-ReID: A Simple but Effective solution for Visible-Thermal Person ReID},
-  author={Jambigi, C., Rawal, R., and Chakraborty, A.},
+  author={Jambigi, Chaitra and Rawal, Ruchit and Chakraborty, Anirban},
   booktitle={British Machine Vision Conference},
   year={2021}
 }
